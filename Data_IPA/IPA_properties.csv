@@ -1,4 +1,4 @@
-Pressure_MPA,Temperature_K,Cp_kJkgK,Density_kgm3,Viscosity_mewPas,ThermalConducitivity_mWmK,TempVapor_Tsp_K,HeatVapor_QsTs_kJkg
+Pressure_MPA,Temperature_K,Cp_kJkgK,Density_kgm3,Viscosity_mewPas,ThermalConductivity_mWmK,TempVapor_Tsp_K,HeatVapor_QsTs_kJkg
  0.101325,253.00,2.45600,816.2509,9854.9144,143.55000,355.40,663.1000
  0.101325,273.00,2.52000,802.1076,4618.0822,139.75000,
  0.101325,293.00,2.58400,786.3000,2400.0000,135.95000,

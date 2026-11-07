@@ -1,0 +1,13 @@
+# Ideal-gas constant-pressure heat capacity of IPA (2-propanol), p = 1 bar.
+# Source: NIST Chemistry WebBook, SRD 69, "Constant pressure heat capacity of gas" table,
+#   data from Thermodynamics Research Center (1997), "Selected Values of Properties of Chemical Compounds".
+#   URL: https://webbook.nist.gov/cgi/cbook.cgi?ID=C67630&Units=SI&Mask=1#Thermo-Gas
+#   Molar mass used for conversion: 60.095 g/mol (NIST WebBook).
+Temperature_K,Cp_Jmol_K,Cp_kJkgK
+273.15,83.72,1.39313
+298.15,89.32,1.48631
+300,89.74,1.49330
+400,112.15,1.86621
+500,131.96,2.19586
+600,148.30,2.46776
+700,161.75,2.69157

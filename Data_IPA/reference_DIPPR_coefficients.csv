@@ -1,0 +1,37 @@
+# Reference correlation coefficients for IPA (2-propanol) and ethanol.
+# Original source: Perry's Chemical Engineers' Handbook, 8th ed. (Green & Perry, 2008), DIPPR correlations.
+# Retrieved from the open-source `chemicals` library (Caleb Bell):
+#   Cp_liquid  : https://raw.githubusercontent.com/CalebBell/chemicals/e79047588b30cfabc564c79fb26d760c746877d7/chemicals/Heat%20Capacity/Perry_Table_2-153_DIPPR_100.tsv
+#   rho_liquid : https://raw.githubusercontent.com/CalebBell/chemicals/e79047588b30cfabc564c79fb26d760c746877d7/chemicals/Density/Perry%20Parameters%20105.tsv
+#   mu_liquid  : https://raw.githubusercontent.com/CalebBell/chemicals/e79047588b30cfabc564c79fb26d760c746877d7/chemicals/Viscosity/Table%202-313%20Viscosity%20of%20Inorganic%20and%20Organic%20Liquids.tsv
+#   mu_vapour  : https://raw.githubusercontent.com/CalebBell/chemicals/e79047588b30cfabc564c79fb26d760c746877d7/chemicals/Viscosity/Table%202-312%20Vapor%20Viscosity%20of%20Inorganic%20and%20Organic%20Substances.tsv
+#   k_liquid   : https://raw.githubusercontent.com/CalebBell/chemicals/e79047588b30cfabc564c79fb26d760c746877d7/chemicals/Thermal%20Conductivity/Table%202-315%20Thermal%20Conductivity%20of%20Inorganic%20and%20Organic%20Liquids.tsv
+#   k_vapour   : https://raw.githubusercontent.com/CalebBell/chemicals/e79047588b30cfabc564c79fb26d760c746877d7/chemicals/Thermal%20Conductivity/Table%202-314%20Vapor%20Thermal%20Conductivity%20of%20Inorganic%20and%20Organic%20Substances.tsv
+#   Hvap       : https://raw.githubusercontent.com/CalebBell/chemicals/e79047588b30cfabc564c79fb26d760c746877d7/chemicals/Phase%20Change/Table%202-150%20Heats%20of%20Vaporization%20of%20Inorganic%20and%20Organic%20Liquids.tsv
+#   Psat       : https://raw.githubusercontent.com/CalebBell/chemicals/e79047588b30cfabc564c79fb26d760c746877d7/chemicals/Vapor%20Pressure/Table%202-8%20Vapor%20Pressure%20of%20Inorganic%20and%20Organic%20Liquids.tsv
+#   MW, Tc     : https://raw.githubusercontent.com/CalebBell/chemicals/e79047588b30cfabc564c79fb26d760c746877d7/chemicals/Critical%20Properties/IUPACOrganicCriticalProps.tsv
+#
+# DIPPR equation forms (T in K, Tr = T/Tc). Results are in the Units column (SI, molar basis: divide by MW for per-kg):
+#   100: Y = C1 + C2*T + C3*T^2 + C4*T^3 + C5*T^4
+#   101: Y = exp(C1 + C2/T + C3*ln(T) + C4*T^C5)
+#   102: Y = C1*T^C2 / (1 + C3/T + C4/T^2)
+#   105: Y = C1 / C2^(1 + (1 - T/C3)^C4)
+#   106: Y = C1 * (1 - Tr)^(C2 + C3*Tr + C4*Tr^2)
+# Correlations are only valid between Tmin and Tmax. Liquid values are for saturated liquid.
+Fluid,CAS,MW,Tc,Property,DIPPR_eq,Units,C1,C2,C3,C4,C5,Tmin,Tmax
+IPA,67-63-0,60.096,508.3,Cp_liquid,100,J/(kmol K),471710,-4172.1,14.745,-0.0144,0,185.26,355.3
+IPA,67-63-0,60.096,508.3,rho_liquid,105,kmol/m3,1.1799,0.2644,508.3,0.24653,0,185.26,508.3
+IPA,67-63-0,60.096,508.3,mu_liquid,101,Pa s,-8.8918,2357.6,-0.91376,0,0,185.26,355.3
+IPA,67-63-0,60.096,508.3,mu_vapour,102,Pa s,1.2003E-06,0.494,479.78,0,0,187.35,1000
+IPA,67-63-0,60.096,508.3,k_liquid,100,W/(m K),0.20161,-0.00021529,0,0,0,185.26,425
+IPA,67-63-0,60.096,508.3,k_vapour,102,W/(m K),7.3907E-07,1.7419,0,0,0,355.3,1000
+IPA,67-63-0,60.096,508.3,Hvap,106,J/kmol,72542,0.79137,-0.66092,0.34223,0,185.26,508.3
+IPA,67-63-0,60.096,508.3,Psat,101,Pa,96.094,-8575.4,-10.292,1.6665E-17,6,185.26,508.3
+Ethanol,64-17-5,46.069,514,Cp_liquid,100,J/(kmol K),102640,-139.63,-0.030341,0.0020386,0,159.05,390
+Ethanol,64-17-5,46.069,514,rho_liquid,105,kmol/m3,1.6288,0.27469,514,0.23178,0,159.05,514
+Ethanol,64-17-5,46.069,514,mu_liquid,101,Pa s,7.875,781.98,-3.0418,0,0,200,440
+Ethanol,64-17-5,46.069,514,mu_vapour,102,Pa s,1.0613E-07,0.8066,52.7,0,0,200,1000
+Ethanol,64-17-5,46.069,514,k_liquid,100,W/(m K),0.2468,-0.000264,0,0,0,159.05,353.15
+Ethanol,64-17-5,46.069,514,k_vapour,102,W/(m K),-0.010109,0.6475,-7332,-268000,0,293.15,1000
+Ethanol,64-17-5,46.069,514,Hvap,106,J/kmol,55789,0.31245,0,0,0,159.05,514
+Ethanol,64-17-5,46.069,514,Psat,101,Pa,73.304,-7122.3,-7.1424,2.8853E-06,2,159.05,514

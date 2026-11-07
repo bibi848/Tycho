@@ -1,0 +1,16 @@
+# Saturated-liquid / saturated-vapour properties of IPA (isopropyl alcohol), CAS 67-63-0.
+# Original source: VDI Heat Atlas, 2nd ed. (VDI-Gesellschaft, Springer, 2010), section D3.1 saturation tables.
+# Retrieved 2026-11-07 from the open-source chemicals library (Caleb Bell), pinned commit e79047588b30cfabc564c79fb26d760c746877d7:
+#   https://raw.githubusercontent.com/CalebBell/chemicals/e79047588b30cfabc564c79fb26d760c746877d7/chemicals/Misc/VDI%20Saturation%20Compounds%20Data.json
+# Converted from the molar units in that file to per-kg using MW = 60.09502 kg/kmol. Blank = not given by VDI.
+Temperature_K,Pressure_MPa,Density_l_kgm3,Density_g_kgm3,Cp_l_kJkgK,Cp_g_kJkgK,Viscosity_l_uPas,Viscosity_g_uPas,ThermalCond_l_mWmK,ThermalCond_g_mWmK,Hvap_kJkg
+355.65,0.1013,732.3,2.06,3.37,1.63,502,9.08,131.1,19.8,677.8
+373,0.2,712.7,4.15,3.55,1.71,376,9.8,127.5,22.2,627.9
+390,0.38,683,7.73,3.71,1.8,295,10.3,124.3,24.6,615
+408,0.58,660,14.3,3.88,1.94,230,10.9,122.8,27.1,577.7
+425,0.925,630.1,21,4.04,2.15,184,11.4,120.1,29.3,538.5
+443,1.425,597.4,32.78,4.2,2.37,147,11.9,117.3,31.8,491.1
+459,2.025,566,46.4,4.34,2.83,122,12.5,115.8,34.9,441.6
+478,3.039,514.8,72.3,4.49,3.97,93.5,13.7,113.2,38.9,367.5
+498,4.052,460.5,108.4,,,72.5,15.2,110.7,42.3,284.5
+508,5.369,288,252,,,,28.2,107.7,47.1,82.5
