@@ -1,0 +1,5 @@
+Creating .venv folder
+python3 -m venv .venv
+
+Creating a requirements.txt file
+pip freeze > requirements.txt

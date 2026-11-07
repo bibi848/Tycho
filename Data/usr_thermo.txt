@@ -1,0 +1,14 @@
+!                                                                               
+!                      SIX-CHARACTER REFERENCE-DATE CODES                       
+!                                                                               
+!                             USER-DEFINED DATABASE                             
+!    Insert your data with temperature intervals before the line "END PRODUCTS"
+!    Insert other data between lines "END PRODUCTS" and "END REACTANTS"      
+                                                                                
+thermo                                                                          
+    200.00   1000.00   6000.00  20000.                                          
+END PRODUCTS                                                                    
+C3H8O      2-propanol (isopropyl alcohol), liquid. NIST.               
+ 0        C   3.00H   8.00O   1.00    0.00    0.00 1   60.0950200    -318100.000
+    298.150      0.0000  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0            0.000
+END REACTANTS                                                                   
