@@ -1,0 +1,103 @@
+Pressure_MPA,Temperature_K,property,old,new,change_pct,reason
+0.101325,253.0,Cp_kJkgK,2.456,2.10969,-14.1,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+0.101325,273.0,Cp_kJkgK,2.52,2.30745,-8.4,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+0.101325,293.0,Cp_kJkgK,2.584,2.5445,-1.5,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+0.101325,313.0,Cp_kJkgK,2.648,2.80933,6.1,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+0.101325,333.0,Cp_kJkgK,2.712,3.09046,14.0,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+0.101325,353.0,Cp_kJkgK,2.776,3.37636,21.6,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+1.0,253.0,Cp_kJkgK,2.456,2.10969,-14.1,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+1.0,273.0,Cp_kJkgK,2.52,2.30745,-8.4,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+1.0,293.0,Cp_kJkgK,2.584,2.5445,-1.5,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+1.0,313.0,Cp_kJkgK,2.648,2.80933,6.1,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+1.0,333.0,Cp_kJkgK,2.712,3.09046,14.0,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+1.0,353.0,Cp_kJkgK,2.776,3.37636,21.6,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+1.0,373.0,Cp_kJkgK,2.84,3.55,25.0,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+1.0,393.0,Cp_kJkgK,2.904,3.73833,28.7,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+1.0,413.0,Cp_kJkgK,2.968,3.92706,32.3,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+6.0,253.0,Cp_kJkgK,2.456,2.10969,-14.1,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+6.0,273.0,Cp_kJkgK,2.52,2.30745,-8.4,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+6.0,293.0,Cp_kJkgK,2.584,2.5445,-1.5,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+6.0,313.0,Cp_kJkgK,2.648,2.80933,6.1,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+6.0,333.0,Cp_kJkgK,2.712,3.09046,14.0,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+6.0,353.0,Cp_kJkgK,2.776,3.37636,21.6,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+6.0,373.0,Cp_kJkgK,2.84,3.55,25.0,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+6.0,393.0,Cp_kJkgK,2.904,3.73833,28.7,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+6.0,413.0,Cp_kJkgK,2.968,3.92706,32.3,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+6.0,433.0,Cp_kJkgK,3.032,4.11111,35.6,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+6.0,453.0,Cp_kJkgK,3.096,4.2875,38.5,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+6.0,473.0,Cp_kJkgK,3.16,4.45053,40.8,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+6.0,493.0,Cp_kJkgK,3.224,4.60842,42.9,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+15.0,253.0,Cp_kJkgK,2.456,2.10969,-14.1,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+15.0,273.0,Cp_kJkgK,2.52,2.30745,-8.4,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+15.0,293.0,Cp_kJkgK,2.584,2.5445,-1.5,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+15.0,313.0,Cp_kJkgK,2.648,2.80933,6.1,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+15.0,333.0,Cp_kJkgK,2.712,3.09046,14.0,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+15.0,353.0,Cp_kJkgK,2.776,3.37636,21.6,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+15.0,373.0,Cp_kJkgK,2.84,3.55,25.0,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+15.0,393.0,Cp_kJkgK,2.904,3.73833,28.7,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+15.0,413.0,Cp_kJkgK,2.968,3.92706,32.3,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+15.0,433.0,Cp_kJkgK,3.032,4.11111,35.6,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+15.0,453.0,Cp_kJkgK,3.096,4.2875,38.5,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+15.0,473.0,Cp_kJkgK,3.16,4.45053,40.8,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+15.0,493.0,Cp_kJkgK,3.224,4.60842,42.9,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+30.0,253.0,Cp_kJkgK,2.456,2.10969,-14.1,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+30.0,273.0,Cp_kJkgK,2.52,2.30745,-8.4,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+30.0,293.0,Cp_kJkgK,2.584,2.5445,-1.5,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+30.0,313.0,Cp_kJkgK,2.648,2.80933,6.1,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+30.0,333.0,Cp_kJkgK,2.712,3.09046,14.0,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+30.0,353.0,Cp_kJkgK,2.776,3.37636,21.6,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+30.0,373.0,Cp_kJkgK,2.84,3.55,25.0,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+30.0,393.0,Cp_kJkgK,2.904,3.73833,28.7,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+30.0,413.0,Cp_kJkgK,2.968,3.92706,32.3,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+30.0,433.0,Cp_kJkgK,3.032,4.11111,35.6,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+30.0,453.0,Cp_kJkgK,3.096,4.2875,38.5,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+30.0,473.0,Cp_kJkgK,3.16,4.45053,40.8,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+30.0,493.0,Cp_kJkgK,3.224,4.60842,42.9,"liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)"
+0.101325,373.0,Viscosity_mewPas,8.033,9.7856,21.8,vapour viscosity -> DIPPR vapour correlation
+0.101325,393.0,Viscosity_mewPas,8.453,10.3373,22.3,vapour viscosity -> DIPPR vapour correlation
+0.101325,413.0,Viscosity_mewPas,8.873,10.8837,22.7,vapour viscosity -> DIPPR vapour correlation
+0.101325,433.0,Viscosity_mewPas,9.293,11.4245,22.9,vapour viscosity -> DIPPR vapour correlation
+0.101325,453.0,Viscosity_mewPas,9.713,11.9597,23.1,vapour viscosity -> DIPPR vapour correlation
+0.101325,473.0,Viscosity_mewPas,10.133,12.4893,23.3,vapour viscosity -> DIPPR vapour correlation
+0.101325,493.0,Viscosity_mewPas,10.553,13.0133,23.3,vapour viscosity -> DIPPR vapour correlation
+0.101325,513.0,Viscosity_mewPas,10.973,13.5317,23.3,vapour viscosity -> DIPPR vapour correlation
+0.101325,533.0,Viscosity_mewPas,11.393,14.0445,23.3,vapour viscosity -> DIPPR vapour correlation
+0.101325,553.0,Viscosity_mewPas,11.813,14.5517,23.2,vapour viscosity -> DIPPR vapour correlation
+0.101325,573.0,Viscosity_mewPas,12.233,15.0534,23.1,vapour viscosity -> DIPPR vapour correlation
+0.101325,593.0,Viscosity_mewPas,12.653,15.5497,22.9,vapour viscosity -> DIPPR vapour correlation
+1.0,433.0,Viscosity_mewPas,9.293,11.4245,22.9,vapour viscosity -> DIPPR vapour correlation
+1.0,453.0,Viscosity_mewPas,9.713,11.9597,23.1,vapour viscosity -> DIPPR vapour correlation
+1.0,473.0,Viscosity_mewPas,10.133,12.4893,23.3,vapour viscosity -> DIPPR vapour correlation
+1.0,493.0,Viscosity_mewPas,10.553,13.0133,23.3,vapour viscosity -> DIPPR vapour correlation
+1.0,513.0,Viscosity_mewPas,10.973,13.5317,23.3,vapour viscosity -> DIPPR vapour correlation
+1.0,533.0,Viscosity_mewPas,11.393,14.0445,23.3,vapour viscosity -> DIPPR vapour correlation
+1.0,553.0,Viscosity_mewPas,11.813,14.5517,23.2,vapour viscosity -> DIPPR vapour correlation
+1.0,573.0,Viscosity_mewPas,12.233,15.0534,23.1,vapour viscosity -> DIPPR vapour correlation
+1.0,593.0,Viscosity_mewPas,12.653,15.5497,22.9,vapour viscosity -> DIPPR vapour correlation
+0.101325,373.0,ThermalConductivity_mWmK,16.015,22.30207,39.3,vapour conductivity -> DIPPR vapour correlation
+0.101325,393.0,ThermalConductivity_mWmK,17.115,24.42632,42.7,vapour conductivity -> DIPPR vapour correlation
+0.101325,413.0,ThermalConductivity_mWmK,18.215,26.63232,46.2,vapour conductivity -> DIPPR vapour correlation
+0.101325,433.0,ThermalConductivity_mWmK,19.315,28.91904,49.7,vapour conductivity -> DIPPR vapour correlation
+0.101325,453.0,ThermalConductivity_mWmK,20.415,31.2855,53.2,vapour conductivity -> DIPPR vapour correlation
+0.101325,473.0,ThermalConductivity_mWmK,21.515,33.73077,56.8,vapour conductivity -> DIPPR vapour correlation
+0.101325,493.0,ThermalConductivity_mWmK,22.615,36.25397,60.3,vapour conductivity -> DIPPR vapour correlation
+0.101325,513.0,ThermalConductivity_mWmK,23.715,38.85429,63.8,vapour conductivity -> DIPPR vapour correlation
+0.101325,533.0,ThermalConductivity_mWmK,24.815,41.53093,67.4,vapour conductivity -> DIPPR vapour correlation
+0.101325,553.0,ThermalConductivity_mWmK,25.915,44.28315,70.9,vapour conductivity -> DIPPR vapour correlation
+0.101325,573.0,ThermalConductivity_mWmK,27.015,47.11022,74.4,vapour conductivity -> DIPPR vapour correlation
+0.101325,593.0,ThermalConductivity_mWmK,28.115,50.01146,77.9,vapour conductivity -> DIPPR vapour correlation
+1.0,433.0,ThermalConductivity_mWmK,19.315,28.91904,49.7,vapour conductivity -> DIPPR vapour correlation
+1.0,453.0,ThermalConductivity_mWmK,20.415,31.2855,53.2,vapour conductivity -> DIPPR vapour correlation
+1.0,473.0,ThermalConductivity_mWmK,21.515,33.73077,56.8,vapour conductivity -> DIPPR vapour correlation
+1.0,493.0,ThermalConductivity_mWmK,22.615,36.25397,60.3,vapour conductivity -> DIPPR vapour correlation
+1.0,513.0,ThermalConductivity_mWmK,23.715,38.85429,63.8,vapour conductivity -> DIPPR vapour correlation
+1.0,533.0,ThermalConductivity_mWmK,24.815,41.53093,67.4,vapour conductivity -> DIPPR vapour correlation
+1.0,553.0,ThermalConductivity_mWmK,25.915,44.28315,70.9,vapour conductivity -> DIPPR vapour correlation
+1.0,573.0,ThermalConductivity_mWmK,27.015,47.11022,74.4,vapour conductivity -> DIPPR vapour correlation
+1.0,593.0,ThermalConductivity_mWmK,28.115,50.01146,77.9,vapour conductivity -> DIPPR vapour correlation
+1.0,393.0,Density_kgm3,671.3143,675.2573,0.6,liquid density below sat. liquid -> Chemcast at same pressure
+1.0,413.0,Density_kgm3,636.0093,647.0479,1.7,liquid density below sat. liquid -> Chemcast at same pressure
+6.0,433.0,Density_kgm3,614.1856,621.8388,1.2,liquid density below sat. liquid -> Chemcast at same pressure
+6.0,453.0,Density_kgm3,570.6679,587.0145,2.9,liquid density below sat. liquid -> Chemcast at same pressure
+6.0,473.0,Density_kgm3,516.8849,544.6781,5.4,liquid density below sat. liquid -> Chemcast at same pressure
+6.0,493.0,Density_kgm3,445.6473,488.7065,9.7,liquid density below sat. liquid -> Chemcast at same pressure
