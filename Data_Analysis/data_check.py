@@ -5,8 +5,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-DATA_DIR = Path.cwd() / "Data_IPA"
-IMG_DIR = Path.cwd() / "images"
+ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT / "Data_IPA"
+IMG_DIR = ROOT / "images"
 IMG_DIR.mkdir(exist_ok=True)
 
 props = ["Cp_kJkgK", "Density_kgm3", "Viscosity_mewPas", "ThermalConductivity_mWmK"]

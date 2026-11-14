@@ -1,7 +1,7 @@
 #%%
 # Build corrected IPA property files for RPA.
 #   In : Data_IPA/IPA_properties.csv, Data_IPA/usr_properties.txt (original) + reference data
-#   Out: New_IPA/IPA_properties.csv, New_IPA/usr_properties.txt, New_IPA/changes.csv
+#   Out: Data_IPA/New_IPA/IPA_properties.csv, Data_IPA/New_IPA/usr_properties.txt, Data_IPA/New_IPA/changes.csv
 #
 # Changes (agreed after the check in ipa_findings.py):
 #   1. Liquid Cp      -> DIPPR (T < 355 K), VDI Heat Atlas sat. liquid (T >= 355 K),
@@ -14,8 +14,9 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-DATA_DIR = Path.cwd() / "Data_IPA"
-OUT_DIR = Path.cwd() / "New_IPA"
+ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT / "Data_IPA"
+OUT_DIR = DATA_DIR / "New_IPA"
 OUT_DIR.mkdir(exist_ok=True)
 
 MW = 60.096
@@ -23,7 +24,6 @@ TC = 508.3  # K, critical temperature of IPA (DIPPR / IUPAC)
 COLS = ["Pressure_MPA", "Temperature_K", "Cp_kJkgK", "Density_kgm3", "Viscosity_mewPas",
         "ThermalConductivity_mWmK", "TempVapor_Tsp_K", "HeatVapor_QsTs_kJkg"]
 
-# ---------------------------------------------------------------- reference data
 dippr = pd.read_csv(DATA_DIR / "reference_DIPPR_coefficients.csv", comment="#")
 dippr = dippr[dippr["Fluid"] == "IPA"].set_index("Property")
 
@@ -67,8 +67,6 @@ def liquid_cp(T):
         return np.interp(T, Tv, cv)
     return cv[-1] + (cv[-1] - cv[-2]) / (Tv[-1] - Tv[-2]) * (T - Tv[-1])
 
-
-# ---------------------------------------------------------------- original file
 orig = pd.read_csv(DATA_DIR / "IPA_properties.csv", skipinitialspace=True)
 new = orig.copy()
 
@@ -100,8 +98,6 @@ for i in orig.index[bad_rho]:
 ok = rho_sat.notna()
 assert (new.loc[ok, "Density_kgm3"] >= rho_sat[ok]).all()
 
-
-# ---------------------------------------------------------------- writers
 # Same fixed-width formats as the original files (checked below by round-tripping the original data)
 def write_csv(df):
     lines = [",".join(COLS)]
@@ -142,7 +138,6 @@ assert write_usr(orig) == usr_text, "usr_properties format mismatch"
 (OUT_DIR / "usr_properties.txt").write_bytes(write_usr(new).encode("utf-8"))
 
 
-# ---------------------------------------------------------------- change log
 reason = {"Cp_kJkgK": "liquid Cp -> DIPPR (<355 K) / VDI (>=355 K, extrapolated past 478 K)",
           "Viscosity_mewPas": "vapour viscosity -> DIPPR vapour correlation",
           "ThermalConductivity_mWmK": "vapour conductivity -> DIPPR vapour correlation",
